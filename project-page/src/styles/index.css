@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Ensures the canvas spans the entire viewport and stays in the background */
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Sends the canvas to the background */
+}
+
+/* Resets body margins and prevents horizontal scrolling */
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* Adds padding and centers text for all sections */
+section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+/* Adds spacing below section headings */
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Ensures images are responsive and visually appealing */
+img {
+  max-width: 100%; /* Prevents images from exceeding their container width */
+  height: auto; /* Maintains aspect ratio */
+  border-radius: 10px; /* Rounds the corners of images */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+}
