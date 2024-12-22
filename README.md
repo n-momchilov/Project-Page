@@ -1,3 +1,6 @@
+# How the page is supposed to look when it works (design/structure/storytelling) - https://claude.site/artifacts/396af858-3821-45ed-8da5-462efe90bb08?fullscreen=false
+
+
 # Interactive Portfolio Project Page
 
 A dynamic and visually appealing project page template designed to showcase interactive features and components for portfolio projects. This template offers a customizable, reusable structure suitable for showcasing a wide variety of projects.
